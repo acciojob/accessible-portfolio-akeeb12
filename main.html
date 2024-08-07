@@ -4,10 +4,46 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<title>My Accessible Portfolio</title>
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
+
+	<nav role="navigation">
+		<ul role="list">
+			<li role="listitem"><a href="#about">About Me</a></li>
+			<li role="listitem"><a href="#project">Project</a></li>
+			<li role="listitem"><a href="contact">Contact</a></li>
+		</ul>
+	</nav>
+<h1 role="heading"> Welcome to My Portfolio</h1>
+	<img src="http://via.placeholder.com/150" alt="Portfolio Picture" role="img">
+	<section>
+		<h2 role="heading">About me</h2>
+		<p>
+			Hello I am a web developer with passion for creating accesible and 
+			user-friendly websites.My goal is to ensure that my work is inclusive for all users,
+			regardless of their abilities.
+		</p>
+	</section>
+
+	<section>
+		<h2 role="heading">Projects</h2>
+		<ul role="list">
+			<li role="listitem">Project 1: Accessible Web Design</li>
+			<li role="listitem">Project 2: Responsive Layouts</li>
+			<li role="listitem">Project 3: Javascript Applications</li>
+		</ul>
+	</section>
+	<section id="contact">
+		<h2 role="heading">Contac</h2>
+		<p>
+			If you'd like to get in touch, please
+			<a href="mailto:example@example.com">email me</a>.
+		</p>
+	</section>
+	
     <script type="text/javascript" src="./script.js">
 </script>
 
